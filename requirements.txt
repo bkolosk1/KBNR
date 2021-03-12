@@ -1,0 +1,6 @@
+numpy==1.18.5
+pandas==1.0.5
+scikit_optimize==0.8.1
+sentence_transformers==0.3.8
+san==1.2.0
+scikit_learn==0.24.1
