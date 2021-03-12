@@ -1,6 +1,11 @@
-numpy==1.18.5
 pandas==1.0.5
-scikit_optimize==0.8.1
 sentence_transformers==0.3.8
+scikit_optimize==0.8.1
 san==1.2.0
+~cipy==1.3.1
+umap_learn==0.4.6
+numpy==1.18.5
+nltk==3.4.4
 scikit_learn==0.24.1
+scipy==1.6.1
+umap==0.1.1
