@@ -206,7 +206,7 @@ if __name__ == "__main__":
     parser.add_argument("--lsa_n_dimensions", help="lsa_n_dimensions to evaluate on.", dest = 'lsa_n_dimensions', default=512)
     
     parser.add_argument("--umap_n_features", help="umap_n_features to evaluate on.", dest = 'umap_n_features', default=2500)
-    parser.add_argument("--umap_n_dimensions", help="umap_n_dimensions to evaluate on.", dest = 'umap_n_dimensions', default=128)
+    parser.add_argument("--umap_n_dimensions", help="umap_n_dimensions to evaluate on.", dest = 'umap_n_dimensions', default=64)
     parser.add_argument("--umap_neigh", help="umap_neigh to evaluate on.", dest = 'umap_neigh', default=5)
     parser.add_argument("--umap_min_dist", help="umap_min_dist to evaluate on.", dest = 'umap_min_dist', default=0.1)
 
