@@ -232,17 +232,13 @@ if __name__ == "__main__":
     logs_file = "logs/outs_"+args.dataset+".log"
     logs_file_ptr = open(logs_file, 'w')
 
-#bo_lsa_n_features, bo_lsa_n_dimensions, 
-              #bo_umap_n_features, bo_umap_n_dimensions, bo_umap_neigh, bo_umap_min_dist,
-             # bo_num_epochs, bo_num_heads, bo_hidden_lyr_size, bo_batch_size, bo_learning_rate, bo_dropout, bo_kg_type)
-    
+
     default_parameters = [int(args.lsa_n_features), int(args.lsa_n_dimensions), 
                           int(args.umap_n_features), int(args.umap_n_dimensions), int(args.umap_neigh), float(args.umap_min_dist),
                           int(args.num_epochs), int(args.num_heads), int(args.hidden_lyr_size), int(args.batch_size), float(args.learning_rate), float(args.dropout),
                           str(args.kg_id_mask)]
 
 
-   # global texts, ys
 
     texts = {}
     ys = {}
