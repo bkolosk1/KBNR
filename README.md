@@ -19,5 +19,28 @@ Download and save them to kg_dump folder.
 ## KG-based representations:
 
 ### Concept extraction
+#### The extraction is represented in *Fuzzy_extractor.ipynb* notebook. 
+#### For each dataset KG concepts are are extracted and saved in dataset *kg_emb_dump* folder.
+* *dataset_kgmethod.pkl*
+  
 
-The fuzzy extraction is represented in 
+### Metadata concept extraction
+#### The extraction is represented in *Fuzzy_extractor.ipynb* notebook. 
+#### Only for the LIAR and the FakeNewsnet, KG concepts are extracted and saved in dataset *kg_emb_dump* folder in a format:.
+* *dataset_method_entity.pkl*
+
+
+
+## Language representations
+
+### The code for obtaining the language representation of each dataset is to be found in the *Extractor.ipynb* notebook. To extract:
+
+* To extract *KG_REPRESENTATIONS* run the *export_kgs* block at the end of the notebook
+* To extract *LANGUAGE_REPRESENTATIONS* run the *export_LM* block at the end of the notebook
+
+
+
+### Classifiers
+
+* The neural learners are to be found in the *bind_learn.py* script.
+* The LR baselines are in the *cartesian_regression.py* script.
