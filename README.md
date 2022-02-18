@@ -44,3 +44,19 @@ Download and save them to kg_dump folder.
 
 * The neural learners are to be found in the *bind_learn.py* script.
 * The LR baselines are in the *cartesian_regression.py* script.
+
+## Citation
+
+```
+@article{KOLOSKI2022,
+title = {Knowledge graph informed fake news classification via heterogeneous representation ensembles},
+journal = {Neurocomputing},
+year = {2022},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2022.01.096},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231222001199},
+author = {Boshko Koloski and Timen {Stepišnik Perdih} and Marko Robnik-Šikonja and Senja Pollak and Blaž Škrlj},
+keywords = {Fake news detection, Knowledge graphs, Text representation, Representation learning, Neuro-symbolic learning},
+abstract = {Increasing amounts of freely available data both in textual and relational form offers exploration of richer document representations, potentially improving the model performance and robustness. An emerging problem in the modern era is fake news detection—many easily available pieces of information are not necessarily factually correct, and can lead to wrong conclusions or are used for manipulation. In this work we explore how different document representations, ranging from simple symbolic bag-of-words, to contextual, neural language model-based ones can be used for efficient fake news identification. One of the key contributions is a set of novel document representation learning methods based solely on knowledge graphs, i.e., extensive collections of (grounded) subject-predicate-object triplets. We demonstrate that knowledge graph-based representations already achieve competitive performance to conventionally accepted representation learners. Furthermore, when combined with existing, contextual representations, knowledge graph-based document representations can achieve state-of-the-art performance. To our knowledge this is the first larger-scale evaluation of how knowledge graph-based representations can be systematically incorporated into the process of fake news classification.}
+}
+```
