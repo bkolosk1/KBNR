@@ -1,6 +1,6 @@
 # Knowledge Graph informed Fake News Classification via Heterogeneous Representation Ensembles
 
-Repository containing the code of the paper: **Knowledge Graph informed Fake News Classificationvia Heterogeneous Representation Ensembles**
+Repository containing the code of the paper: **Knowledge Graph informed Fake News Classification via Heterogeneous Representation Ensembles**
 
 ![alt text](scheme.png "Logo Title Text 1")
 
